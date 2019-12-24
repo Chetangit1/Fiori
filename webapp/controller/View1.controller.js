@@ -11,7 +11,6 @@ sap.ui.define([
 		oMap : null,
 		onAfterRendering:function(){
 			if(!this.oMap){
-				
 				this.oMap = new 	google.maps.Map( $("#chetan"),{
 					zoom: 12,
 					center:{ lat:28.7041, lng:77.1025 }
