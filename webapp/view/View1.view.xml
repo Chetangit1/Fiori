@@ -1,0 +1,10 @@
+<mvc:View controllerName="MyNameSpace.MyTest1.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:a="MyNameSpace.MyTest1.CustomControl">
+
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<SearchField search ="searchMap"></SearchField>
+						<a:Head></a:Head>
+					</content>
+				</Page>
+			
+</mvc:View>
